@@ -112,6 +112,15 @@ const EditorPage = () => {
                         ))}
                     </div>
                 </div>
+                        <button
+          className="btn whiteBoardBtn"
+          style={{ marginBottom: "20px" }}
+          onClick={() =>
+            window.open("https://whiteboardjs.netlify.app/", "_blank")
+          }
+        >
+          WHITE BOARD
+        </button>
                 <button className="btn copyBtn" onClick={copyRoomId}>
                     Copy ROOM ID
                 </button>
