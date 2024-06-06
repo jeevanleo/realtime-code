@@ -61,13 +61,16 @@ footer a {
 
 .joinBtn,
 .leaveBtn {
-  background: #4aed88;
+  background: #209cee;
   width: 100px;
   margin-left: auto;
 }
+.joinBtn {
+  color: #ffffff;
+}
 
 .joinBtn:hover {
-  background: #2b824c;
+  background: #0294f4;
 }
 .leaveBtn:hover {
   background: red;
@@ -79,16 +82,16 @@ footer a {
 }
 
 .createNewBtn {
-  color: #4aed88;
+  color: #ffffff;
   text-decoration: none;
-  border-bottom: 1px solid #4aed88;
+  border-bottom: 1px solid #209cee;
   transition: all 0.3s ease-in-out;
 }
 
 .createNewBtn:hover,
 footer a:hover {
-  color: #368654;
-  border-color: #368654;
+  color: #085a91;
+  border-color: #209cee;
 }
 
 .mainWrap {
