@@ -71,11 +71,6 @@ const Home = () => {
           </span>
         </div>
       </div>
-      <footer>
-        <h4>
-          <a href="https://jeevansatyam.netlify.app/">JEEVAN SATYAM</a>
-        </h4>
-      </footer>
     </div>
   );
 };
